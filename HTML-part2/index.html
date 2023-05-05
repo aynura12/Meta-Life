@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table and Form element</title>
+</head>
+
+<body>
+
+    <table border="3">
+        <caption>This is a table</caption>
+        <colgroup><col style="background-color: red;"><col style="background-color: blue;"></colgroup>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Aynura</td>
+                <td>Qaniyeva</td>
+            </tr>
+            <tr>
+                <td>Konul</td>
+                <td>Memmedova</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>footer1</td>
+                <td>footer2</td>
+            </tr>
+        </tfoot>
+    </table>
+    <form action="" autocomplete="off">
+        <label for="name">Name</label>
+        <input type="text" placeholder="Enter your name" name="name" id="name" maxlength="10"  minlength="5" readonly>
+        <br>
+        <br>
+        <label for="surname">SurName</label>
+        <input type="text" placeholder="Enter your surname" name="surname" id="surname"  required>
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <hr>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender">
+        <br>
+        <label for="portfolio">
+            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png" alt="portfolio" height="50px">
+        </label>
+        <input type="file" id="portfolio" style="display: none;" accept="image/*">
+        <br>
+        <input type="color" name="" id="">
+        <br>
+        <input type="range">
+        <br>
+        <input type="date">
+        <input type="checkbox">
+        <input type="checkbox">
+        <br>
+        <textarea name="" id=""  style="resize: none;"></textarea>
+        <button>Submit</button>
+
+    </form>
+</body>
+
+</html>
