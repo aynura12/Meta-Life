@@ -1,0 +1,40 @@
+/* div{
+    background-color: red;
+} */
+/* .text_wrap{
+background-color: blue;
+}
+#div-id{
+    background-color: yellow;
+} */
+
+/* #text-id{
+    color: blue;
+}
+.text{
+    color: red;
+} */
+/* .text2{
+   color: blue;
+}
+*{
+   margin: 0 auto;
+   padding: 0;
+} */
+/* div.text1{
+    background-color: red;
+} */
+/* div,span{
+    color:blue ;
+} */
+    /* p+div{
+    color: yellow;
+} */
+
+
+img{
+    height: 100px;
+}
+[alt*=image1]{
+ border: 2px solid red;
+}
