@@ -1,0 +1,76 @@
+a:active {
+    color: red;
+}
+
+input:disabled {
+    background-color: brown;
+}
+
+input:enabled {
+    background-color: green;
+}
+
+/* div p:first-child{
+    color:red
+}
+div p:last-child{
+    color: green;
+} */
+span {
+    color: blue;
+}
+
+span:hover {
+    color: red;
+}
+
+/* div p:nth-child(3n+4){
+color: yellow;
+} */
+main p:nth-of-type(3) {
+    color: blue
+}
+
+h1::selection {
+    background-color: red;
+    color: beige;
+}
+
+ul li::marker {
+    color: rgb(128, 36, 0);
+}
+
+/* p::first-line{
+    color: red;
+} */
+p::first-letter {
+    color: red;
+}
+
+h1 {
+    position: relative;
+}
+h1:hover{
+    transition: .3s;
+
+}
+h1:hover:before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 200px;
+    height: 8px;
+    background-color: red;
+
+}
+h1:hover:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 0px;
+    height: 0px;
+    background-color: red;
+
+}
