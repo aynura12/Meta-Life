@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box-1 {
+    border: 3px solid red;
+    height: 200px;
+    width: 400px;
+    /* margin: 0 auto; */
+    /* border-color: red;
+    border-width: 2px; */
+    /* border-style: solid; */
+    /* border-style: dashed; */
+    /* border-style: dotted; */
+
+    /* top right  bottom left  ; */
+
+    /* padding: 20px 30px 50px;  ortada olan sag sol 1 ci ve 3 ci yuxari ve asagi */
+    /* padding: 20px 30px ; 1 ci yuxari asagi 2ci sag sol */
+    /* padding :30px ; butun terefler  */
+    /* padding: 20px 30px 40px 50px ; */
+    padding: 20px;
+    /* outline: 3px solid blue; */
+    /* margin:  20px 30px; */
+    /* overflow-y: hidden; */
+    overflow-y: scroll;
+    overflow-x: scroll;
+    cursor: wait;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+}
+
+.box-2 {
+    border: 3px solid red;
+    height: 200px;
+    width: 400px;
+    padding: 40px;
+}
+
+.background {
+    /* border: 2px solid red; */
+    /* background-color: rgb(167, 86, 243); */
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url("https://media.istockphoto.com/id/1362060571/photo/saturn-planet-with-rings-in-outer-space-among-star-dust-and-srars-titan-moon-seen-elements-of.jpg?s=612x612&w=0&k=20&c=egWKDL6RjGAeKuQD6gYksG5CSv4Qn6RA1c_g4DBeLaQ=");
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+
+    /* background-size: contain; */
+    background-size: cover;
+
+
+
+    /* background-position-y:bottom;
+   background-position-x:right; */
+    background-position: center;
+}
+
+.wrapper {
+    position: relative;
+
+}
+
+
+.background::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: white;
+    opacity: 0.4;
+    transition: 0.8s;
+
+
+}
+
+.background:hover::after {
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    /* padding: 20px; */
+
+}
